@@ -14,3 +14,4 @@ pycountry
 fastapi
 uvicorn
 jinja2
+rich
