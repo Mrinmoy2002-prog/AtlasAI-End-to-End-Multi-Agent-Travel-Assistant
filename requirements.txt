@@ -15,3 +15,6 @@ fastapi
 uvicorn
 jinja2
 rich
+langchain-mcp-adapters
+mcp
+nest-asyncio

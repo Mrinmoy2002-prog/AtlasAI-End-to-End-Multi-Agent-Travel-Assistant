@@ -2,6 +2,10 @@ from pathlib import Path
 import traceback
 import uvicorn
 
+# As there are two async loops one in backend.py and another in app.py
+import nest_asyncio
+nest_asyncio.apply()
+
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
